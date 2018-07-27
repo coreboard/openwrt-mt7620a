@@ -664,6 +664,15 @@ define Device/zbt-we826-16M
 endef
 TARGET_DEVICES += zbt-we826-16M
 
+define Device/yb-we826-16M
+  DTS := YB-WE826-16M
+  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+  SUPPORTED_DEVICES += yb-we826
+  DEVICE_TITLE := Yblink YB-WE826 (16M)
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci kmod-mt76 kmod-sdhci-mt7620 
+endef
+TARGET_DEVICES += yb-we826-16M
+
 define Device/zbt-we826-32M
   DTS := ZBT-WE826-32M
   IMAGE_SIZE := $(ralink_default_fw_size_32M)

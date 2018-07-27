@@ -15,22 +15,19 @@ cd openwrt
 
 
 ```
-# 编译相关工具下载（TODO: 合并到git）
+# 编译相关工具下载
 ```
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 ```
 # 编译
 ## 配置
-```
-make menuconfig
-“Target System” ⇒ “Atheros AR7xxx/AR9xxx”
-“Target Profile” ⇒ “TP-LINK TL-WR841N/ND v11”
-make defconfig
-make
-```
-## 编译`make -j4`
-> 第一次编译请使用`make`
+在openwrt目录下键入`make menuconfig`，做如下配置：
+- “Target System” ⇒ “MediaTek Ralink MIPS”
+- “Target Profile” ⇒ “Yblink YB-WE826 (16M)”
+- “LuCI” ⇒ “1. Collections” ⇒ “luci”
+
+## 编译`make`
 
 # 烧写
 ## 全烧写

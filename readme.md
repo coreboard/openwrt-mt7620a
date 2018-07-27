@@ -24,7 +24,7 @@ cd openwrt
 ## 配置
 在openwrt目录下键入`make menuconfig`，做如下配置：
 - “Target System” ⇒ “MediaTek Ralink MIPS”
-- “Target Profile” ⇒ “Yblink YB-WE826 (16M)”
+- “Target Profile” ⇒ “cb-7620-16M”
 - “LuCI” ⇒ “1. Collections” ⇒ “luci”
 
 ## 编译`make`

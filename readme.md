@@ -11,7 +11,7 @@ sudo apt-get install libncurses5-dev gawk gettext unzip file libssl-dev wget zip
 # 源码下载
 ```
 git clone https://github.com/coreboard/openwrt-mt7620a.git
-cd openwrt
+cd openwrtt-mt7620a
 
 
 ```

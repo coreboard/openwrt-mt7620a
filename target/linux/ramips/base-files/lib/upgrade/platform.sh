@@ -35,6 +35,7 @@ platform_check_image() {
 	broadway|\
 	c108|\
 	carambola|\
+	cb-7620-16M|\
 	cf-wr800n|\
 	cs-qr10|\
 	d105|\
@@ -221,7 +222,6 @@ platform_check_image() {
 	zbt-we2026|\
 	zbtlink,zbt-we3526|\
 	zbt-we826-16M|\
-	yb-we826-16M|\
 	zbt-we826-32M|\
 	zbt-wg2626|\
 	zbt-wg3526-16M|\

@@ -4,7 +4,7 @@
 
 / {
 	compatible = "zbtlink,zbt-we826-16m", "zbtlink,zbt-we826", "ralink,mt7620a-soc";
-	model = "ZBT-WE826 (16M)";
+	model = "CB-7620 (16M)";
 };
 
 &spi0 {

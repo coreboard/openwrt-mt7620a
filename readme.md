@@ -1,5 +1,5 @@
 # 环境搭建
-如果希望快速使用，可以[网盘下载(密码：ia8i)](https://pan.baidu.com/s/1bbkmvVlkw7WyPP2uHR_uUA)我们的已经配好环境的ubuntu虚拟机镜像
+如果希望快速使用，可以[网盘下载(密码：ia8i)](https://pan.baidu.com/s/1bbkmvVlkw7WyPP2uHR_uUA)我们的已经配好环境的ubuntu虚拟机镜像(密码：openwrt)
 ## ubuntu
 在ubuntu终端输入以下命令
 ```
@@ -9,7 +9,8 @@ sudo apt-get install libncurses5-dev gawk gettext unzip file libssl-dev wget zip
 ```
 
 # 源码下载
-[网盘下载(密码：vqrx)](https://pan.baidu.com/s/1RLuAvbiHCa8e8g6IshJA4g)
+可以通过[网盘下载(密码：vqrx)](https://pan.baidu.com/s/1RLuAvbiHCa8e8g6IshJA4g)
+也可以通过git命令拉取源码
 ```
 git clone https://github.com/coreboard/openwrt-mt7620a.git
 cd openwrtt-mt7620a
